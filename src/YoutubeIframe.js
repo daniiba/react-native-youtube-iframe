@@ -280,7 +280,7 @@ const YoutubeIframe = (props, ref) => {
 };
 
 const styles = StyleSheet.create({
-  webView: {backgroundColor: 'transparent'},
+  webView: {backgroundColor: 'transparent', borderRadius: '10px', overflow: 'hidden'},
 });
 
 export default forwardRef(YoutubeIframe);
