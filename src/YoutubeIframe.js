@@ -282,7 +282,7 @@ const YoutubeIframe = (props, ref) => {
 const styles = StyleSheet.create({
   webView: {
     backgroundColor: 'transparent',
-    borderRadius: '10px',
+    borderRadius: 10,
     overflow: 'hidden',
   },
 });
